@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './HeroSection.css'
 
 function HeroSection() {
@@ -13,9 +14,9 @@ function HeroSection() {
           <a href="#featured" className="btn btn-primary">
             Ver productos destacados
           </a>
-          <a href="/contact" className="btn btn-secondary">
+          <Link to="/contact" className="btn btn-secondary">
             Contactar
-          </a>
+          </Link>
         </div>
       </div>
       <div className="hero-card">
