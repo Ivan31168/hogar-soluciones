@@ -28,6 +28,24 @@
   font-size: 1.2rem;
 }
 
+.nav-toggle {
+  display: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-left: auto;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 1.6rem;
+  height: 0.15rem;
+  margin: 0.27rem 0;
+  background: #23395d;
+  border-radius: 999px;
+}
+
 .brand-block h1 {
   margin: 0;
   font-size: 1.15rem;
@@ -56,6 +74,10 @@
   transition: all 0.2s ease;
 }
 
+.site-nav.open {
+  display: flex;
+}
+
 .nav-link:hover,
 .nav-link.active {
   background: #eef2ff;
@@ -64,12 +86,30 @@
 
 @media (max-width: 720px) {
   .site-header {
-    flex-direction: column;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
     padding: 1rem 1.25rem;
   }
 
+  .nav-toggle {
+    display: block;
+  }
+
   .site-nav {
-    justify-content: center;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(17, 24, 39, 0.08);
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 0.75rem 1rem;
   }
 }
