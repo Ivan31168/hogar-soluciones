@@ -17,6 +17,14 @@ const services = [
     title: 'Cambio de grifería',
     text: 'Instalación de nueva grifería y dale a tu vivienda un aspecto modernizado.',
   },
+  {
+    title: 'Reparación de persianas',
+    text: 'Reparación y ajuste de persianas, motorizadas o manuales.',
+  },
+  {
+    title: 'Instalaciones eléctricas',
+    text: 'Reemplazo de enchufes e instalación de lámparas.',
+  },
 ]
 
 function ServicesPage() {

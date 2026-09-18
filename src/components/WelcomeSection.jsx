@@ -27,9 +27,14 @@ const cards = [
     image: '/img/mueble.png',
   },
   {
-    title: 'Arreglos de enchufes',
-    text: 'Solucionamos tomas y enchufes estropeados con seguridad.',
+    title: 'Arreglos de persianas',
+    text: 'Solucionamos persianas atascadas, rotas y ajustamos mecanismos.',
     image: '/img/persiana.png',
+  },
+  {
+    title: 'Instalaciones eléctricas',
+    text: 'Reemplazo de enchufes e instalación de lámparas.',
+    image: '/img/ventilador_techo.png',
   },
 ]
 
@@ -37,8 +42,7 @@ function WelcomeSection() {
   return (
     <section className="welcome-section">
       <div className="section-heading">
-        <p className="eyebrow">Welcome</p>
-        <h2>Productos destacados para crear espacios más completos y acogedores.</h2>
+        <h2>Algunos de los trabajos que realizamos</h2>
       </div>
       <div className="welcome-grid">
         {cards.map((card) => (

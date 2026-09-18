@@ -26,10 +26,7 @@ const items = [
 function FeaturedSection() {
   return (
     <section className="featured-section" id="featured">
-      <div className="section-heading">
-        <p className="eyebrow">Productos destacados</p>
-        <h2>Propuestas que unen estilo, funcionalidad y confort en cada ambiente.</h2>
-      </div>
+      {/* Header removed per request; the grid below lists services */}
       <div className="featured-grid">
         {items.map((item) => (
           <article key={item.title} className="featured-card">

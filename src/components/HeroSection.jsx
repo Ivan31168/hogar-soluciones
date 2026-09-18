@@ -5,14 +5,14 @@ function HeroSection() {
   return (
     <section className="hero-section">
       <div className="hero-copy">
-        <p className="eyebrow">Estilo • Funcionalidad • Diseño</p>
-        <h2>Soluciones para transformar cada espacio con piezas que marcan la diferencia.</h2>
+        <p className="eyebrow">Profesionalidad • rapidez • precio cerrado</p>
+        <h2>Manitas a domicilio en la provincia de Almería.</h2>
         <p className="hero-text">
-          Descubre una selección de productos pensados para dar personalidad, confort y orden a cocinas, baños, dormitorios y áreas comunes.
+          ¿Necesitas arreglar una persiana, una lámpara o un grifo de tu hogar? Contáctame y lo soluciono
         </p>
         <div className="hero-actions">
           <a href="#featured" className="btn btn-primary">
-            Ver productos destacados
+            Ver servicios
           </a>
           <Link to="/contact" className="btn btn-secondary">
             Contactar
@@ -22,9 +22,10 @@ function HeroSection() {
       <div className="hero-card">
         <h3>Lo que encontrarás</h3>
         <ul>
-          <li>Detalles modernos para interiores completos</li>
-          <li>Opciones funcionales para cada ambiente</li>
-          <li>Estética cuidada y acabados de alto impacto</li>
+          <li>Soluciones para tu hogar.</li>
+          <li>Profesionalidad y limpieza.</li>
+          <li>Presupuesto sin sorpresas.</li>
+          <li>Citas rápidas</li>
         </ul>
       </div>
     </section>
