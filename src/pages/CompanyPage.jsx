@@ -13,7 +13,7 @@ function CompanyPage() {
         <p className="eyebrow">Nuestra empresa</p>
         <h2>Soluciones de manitas para mantener tu casa en perfecto estado.</h2>
         <p>
-          RS - Hogar Soluciones ofrece servicios de mantenimiento, reparaciones y mejoras pequeñas en el hogar, con atención personalizada para cocinas, baños, muebles, cerraduras y más.
+          RS - Hogar Soluciones ofrece soluciones para pequeños arreglos domésticos y mejoras del hogar: cambio de cerraduras; instalación de cortinas, estores y rieles; instalación de espejos; cambio de grifería; montaje de muebles y arreglos eléctricos menores.
         </p>
       </div>
 

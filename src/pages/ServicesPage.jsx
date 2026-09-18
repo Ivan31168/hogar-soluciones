@@ -2,20 +2,20 @@ import './ServicesPage.css'
 
 const services = [
   {
-    title: 'Reparaciones generales',
-    text: 'Arreglos rápidos y confiables para puertas, muebles, grifería y pequeños desperfectos eléctricos.',
+    title: 'Cambio de cerraduras',
+    text: 'Protege tu vivienda con nuevas cerraduras.',
   },
   {
-    title: 'Instalación y mantenimiento',
-    text: 'Montaje de accesorios, persianas, espejos y ventiladores, con limpieza al terminar.',
+    title: 'Cortinas, estores y rieles',
+    text: 'Da a tu ventana una imagen diferente. Instalación de cortinas, estores y rieles para tener intimidad y estilo.',
   },
   {
-    title: 'Mejoras del hogar',
-    text: 'Soluciones prácticas para optimizar espacios, ordenar ambientes y actualizar detalles.',
+    title: 'Instalación de espejos',
+    text: 'Dale a tu baño o tu dormitorio un nuevo estilo.',
   },
   {
-    title: 'Asistencia personalizada',
-    text: 'Diagnóstico atento y presupuesto claro para cada trabajo, sin sorpresas ni demoras.',
+    title: 'Cambio de grifería',
+    text: 'Instalación de nueva grifería y dale a tu vivienda un aspecto modernizado.',
   },
 ]
 

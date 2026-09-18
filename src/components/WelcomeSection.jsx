@@ -2,39 +2,34 @@ import './WelcomeSection.css'
 
 const cards = [
   {
-    title: 'Cerradura',
-    text: 'Soluciones funcionales y seguras para puertas con estilo moderno.',
+    title: 'Cambio de cerraduras',
+    text: 'Protege tu vivienda con nuevas cerraduras.',
     image: '/img/cerradura.png',
   },
   {
-    title: 'Cortinas',
-    text: 'Opciones elegantes para dar calidez y personalidad a cada ambiente.',
+    title: 'Cortinas, estores y rieles',
+    text: 'Da a tu ventana una imagen diferente. Instalación de cortinas, estores y rieles para tener intimidad y estilo.',
     image: '/img/cortinas.png',
   },
   {
-    title: 'Espejo de baño',
-    text: 'Diseños prácticos y sofisticados que potencian los espacios.',
+    title: 'Instalación de espejos',
+    text: 'Dale a tu baño o tu dormitorio un nuevo estilo.',
     image: '/img/espejo_baño.png',
   },
   {
-    title: 'Grifería',
-    text: 'Detalle premium para cocinas y baños con acabados de alto impacto.',
+    title: 'Cambio de grifería',
+    text: 'Instalación de nueva grifería y mejora el aspecto de tu vivienda.',
     image: '/img/griferia.png',
   },
   {
-    title: 'Mueble',
-    text: 'Propuestas de organización y diseño para interiores contemporáneos.',
+    title: 'Montaje de muebles',
+    text: 'Armado limpio y rápido para muebles nuevos o de segunda mano.',
     image: '/img/mueble.png',
   },
   {
-    title: 'Persiana',
-    text: 'Control de luz y privacidad con un acabado limpio y funcional.',
+    title: 'Arreglos de enchufes',
+    text: 'Solucionamos tomas y enchufes estropeados con seguridad.',
     image: '/img/persiana.png',
-  },
-  {
-    title: 'Ventilador de techo',
-    text: 'Comodidad y diseño para espacios que necesitan frescura y estilo.',
-    image: '/img/ventilador_techo.png',
   },
 ]
 
