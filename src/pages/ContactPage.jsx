@@ -101,9 +101,9 @@ function ContactPage() {
 
         <aside className="contact-card">
           <h3>Escríbenos</h3>
-          <p>hola@rs-hogarsoluciones.com</p>
-          <p>+34 600 123 456</p>
-          <p>Madrid, España</p>
+          <p>rs.asesor2@gmail.com</p>
+          <p>+34603492447</p>
+          <p>Almería, España</p>
         </aside>
       </div>
     </section>
