@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prepare-static": "node ./scripts/prepareStatic.js",
+    "prepare-static": "node ./scripts/prepareStatic.cjs",
     "build": "npm run prepare-static && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
